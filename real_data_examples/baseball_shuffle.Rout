@@ -1,0 +1,55 @@
+Loading required package: iterators
+Loading required package: parallel
+Loading required package: coda
+Loading required package: MASS
+##
+## Markov Chain Monte Carlo Package (MCMCpack)
+## Copyright (C) 2003-2018 Andrew D. Martin, Kevin M. Quinn, and Jong Hee Park
+##
+## Support provided by the U.S. National Science Foundation
+## (Grants SES-0350646 and SES-0350613)
+##
+
+Attaching package: ‘invgamma’
+
+The following objects are masked from ‘package:MCMCpack’:
+
+    dinvgamma, rinvgamma
+
+      listnames              tse.average        
+ [1,] "tse.gm"               "0.922233426199865"
+ [2,] "tse.JS"               "0.546533454674741"
+ [3,] "tse.M"                "0.485188272473619"
+ [4,] "tse.SG"               "0.469283955508778"
+ [5,] "tse.gl"               "0.279804160697119"
+ [6,] "tse.gl.sure"          "0.303238961172991"
+ [7,] "tse.gl.dynamic"       "0.475093223136941"
+ [8,] "tse.gl.dynamicMin"    "0.290090355268639"
+ [9,] "tse.gl.dynamicMin2"   "0.277688045302939"
+[10,] "tse.gl.dynamicMin3"   "0.279285644456111"
+[11,] "tse.DPMM.ngmixture"   "0.353522746364635"
+[12,] "tse.gm_p"             "0.312663184873582"
+[13,] "tse.JS_p"             "0.248993317887626"
+[14,] "tse.M_p"              "0.222737641236099"
+[15,] "tse.SG_p"             "0.175873700341906"
+[16,] "tse.gl_p"             "0.243823171599953"
+[17,] "tse.gl.sure_p"        "0.283787838874262"
+[18,] "tse.gl.dynamic_p"     "0.219291891364763"
+[19,] "tse.gl.dynamicMin_p"  "0.270572810345753"
+[20,] "tse.gl.dynamicMin2_p" "0.28139917048247" 
+[21,] "tse.gl.dynamicMin3_p" "0.290928641984425"
+[22,] "tse.DPMM.ngmixture_p" "0.237712100422281"
+[23,] "tse.gm_n"             "0.29511897191752" 
+[24,] "tse.JS_n"             "0.23037011920492" 
+[25,] "tse.M_n"              "0.26020658872361" 
+[26,] "tse.SG_n"             "0.214836312033361"
+[27,] "tse.gl_n"             "0.173065773936"   
+[28,] "tse.gl.sure_n"        "0.194873266844225"
+[29,] "tse.gl.dynamic_n"     "0.224989774573893"
+[30,] "tse.gl.dynamicMin_n"  "0.18195825415465" 
+[31,] "tse.gl.dynamicMin2_n" "0.17403568770776" 
+[32,] "tse.gl.dynamicMin3_n" "0.16966255287708" 
+[33,] "tse.DPMM.ngmixture_n" "0.1697798934779"  
+> proc.time()
+      user     system    elapsed 
+3069952.47     971.00   62778.69 
